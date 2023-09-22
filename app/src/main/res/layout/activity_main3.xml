@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+
+    //scroll view para usuario escolher a feira
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewN1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="66dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_background" />
+        <TextView
+            android:id="@+id/textViewN1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feira Agroecológica da Ponta Norte" />
+
+        <ImageView
+            android:id="@+id/imageViewN2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:srcCompat="@drawable/ic_launcher_background" />
+        <TextView
+            android:id="@+id/textViewN2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feira de Hortifruti da 404 Norte" />
+
+        <ImageView
+            android:id="@+id/imageViewN3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="54dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:srcCompat="@drawable/ic_launcher_background" />
+        <TextView
+            android:id="@+id/textViewN3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feira da AGE 315/316" />
+
+        <ImageView
+            android:id="@+id/imageViewN4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="54dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:srcCompat="@drawable/ic_launcher_background" />
+        <TextView
+            android:id="@+id/textViewN4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feira Organica da 213" />
+
+        <ImageView
+            android:id="@+id/imageViewN5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="54dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:srcCompat="@drawable/ic_launcher_background" />
+        <TextView
+            android:id="@+id/textViewN5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feira da 108" />
+
+    </LinearLayout>
+</ScrollView>
+
+
